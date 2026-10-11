@@ -1,0 +1,25 @@
+# Xcode and Swift build products
+DerivedData/
+.build/
+.swiftpm/
+build/
+*.xcuserstate
+xcuserdata/
+*.xcresult/
+.DS_Store
+
+# Signing and local configuration
+*.p12
+*.mobileprovision
+*.xcconfig.local
+.env
+.env.*
+
+# Private acoustic recordings and local investigation notes
+SSTVReceiverTests/Fixtures/robot36-microphone-*.wav
+SSTV-diagnostic-*.wav
+Documentation/decoded-microphone.png
+Documentation/*.local.md
+
+# Clean publishing snapshots
+.publish/
